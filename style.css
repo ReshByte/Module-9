@@ -227,7 +227,8 @@ main > section{
 @media screen and (max-width:576px) {
     .navbar, 
      .nav-links,
-     .teams{
+     .teams,
+     .sponsors-logo{
         flex-direction: column;
     } 
     
@@ -259,12 +260,30 @@ main > section{
 .facts-container{
     justify-items: center;
     gap: 24px;
+    margin-left: 70px;
+    
 }
 
 .s, .p{
     text-align: center;
 }
 
+.sponsors-description{
+    margin: 0;
+    width: 100%;
+}
+
+.copyright{
+    width: 100%;
+}
+.logo-image{
+    width: 50%;
+}
+
+.sponsors-logo{
+    margin-left: 130px;
+    gap: 50px;
+}
     
 }
 
