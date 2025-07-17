@@ -222,15 +222,128 @@ main > section{
 }
 
 
+.love-features{
+    display: flex;
+    gap: 260px;
+    width: 400px;
+    margin-bottom: 230px;
+  
+}
+
+.love-image{
+    height: 982px;
+    width: 708px;
+    /* border: 2px solid salmon; */
+}
+
+.love-container{
+    width: 586px;
+    height: 980px;
+
+    
+}
+
+
+.content-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.love-card{
+    border: none;
+    border-radius: 8px;
+    height: 90px;
+    width: 400px;
+    padding: 30px;
+    padding-top: 0px; 
+    padding-bottom: 60px;
+    
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgb(214, 213, 213);
+}
+
+.orange-box{
+    height: 200px;
+    width: 342px;
+    background-color: #FF900E;
+    position: absolute;
+    margin-top: 53rem;
+    margin-left: 40rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.orange-title{
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.orange-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
     .navbar, 
      .nav-links,
      .teams,
-     .sponsors-logo{
+     .sponsors-logo,
+     .love-features{
         flex-direction: column;
     } 
+
+
+    .orange-box{
+        position: relative;
+       margin-top: 0;
+       margin-left: 80px;
+        width: 60%;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    
+    .orange-title{
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+
+
+    .love-container{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+   .love-title, .love-description{
+    width: 100%;
+   }    
+
+   .love-responsive{
+   
+    padding-left: 15px;
+   }
+
+   .love-card{
+    width: 300px;
+   }
+
+    .love-image{
+        width: 100%;
+        height: auto;
+    }
     
     .navbar, .banner{
     padding-right: 0;
